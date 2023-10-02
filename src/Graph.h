@@ -56,7 +56,6 @@ public:
 private:
 	Node u, v;
 	int w;
-	//Mutlak ağırlığın bulunması için
 	//To calculate absolute weight
 	int calculateW(){
 		if(u.getW() > v.getW())

@@ -82,7 +82,6 @@ int main(int argc, char** argv){
 	}
 	//Output file header
 	outFile << "P3 " << to_string(colNum) << " " << to_string(rowNum) << " " << to_string(colorDensity) << "\n";
-	//Grup id'sine göre RGB değerinin tutar
 	//Stores RGB value by group id
 	unordered_map<int, int*> densityMap;
 	int RGB[3], groupNum = 0, groupId, colCount = 1;
